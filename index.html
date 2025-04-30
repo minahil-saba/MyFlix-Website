@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlix - Your Movie Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">MyFlix</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="my-list.html">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to MyFlix</h1>
+                <p>Your ultimate destination for movies and TV shows</p>
+                <a href="#featured" class="cta-button">Explore Now</a>
+            </div>
+        </section>
+
+        <section id="featured" class="featured">
+            <h2>Featured Movies</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80" alt="Inception">
+                    <div class="movie-info">
+                        <h3>Inception</h3>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.8</span>
+                            <span class="genre">Sci-Fi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80" alt="The Dark Knight">
+                    <div class="movie-info">
+                        <h3>The Dark Knight</h3>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 9.0</span>
+                            <span class="genre">Action</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" alt="Interstellar">
+                    <div class="movie-info">
+                        <h3>Interstellar</h3>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.6</span>
+                            <span class="genre">Adventure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Browse by Category</h2>
+            <div class="category-grid">
+                <a href="movies.html" class="category-card action">Action</a>
+                <a href="movies.html" class="category-card drama">Drama</a>
+                <a href="movies.html" class="category-card comedy">Comedy</a>
+                <a href="movies.html" class="category-card scifi">Sci-Fi</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MyFlix</h3>
+                <p>Your ultimate movie streaming destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tv-shows.html">TV Shows</a></li>
+                    <li><a href="my-list.html">My List</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyFlix. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - MyFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">MyFlix</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html" class="active">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="my-list.html">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="page-header">
+            <h1>Movies</h1>
+            <div class="filter-bar">
+                <select class="filter-select">
+                    <option value="all">All Genres</option>
+                    <option value="action">Action</option>
+                    <option value="drama">Drama</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="scifi">Sci-Fi</option>
+                </select>
+                <select class="filter-select">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="movies-grid">
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80" alt="Inception">
+                <div class="movie-info">
+                    <h3>Inception</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 8.8</span>
+                        <span class="genre">Sci-Fi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80" alt="The Dark Knight">
+                <div class="movie-info">
+                    <h3>The Dark Knight</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 9.0</span>
+                        <span class="genre">Action</span>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" alt="Interstellar">
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 8.6</span>
+                        <span class="genre">Adventure</span>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80" alt="The Godfather">
+                <div class="movie-info">
+                    <h3>The Godfather</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 9.2</span>
+                        <span class="genre">Drama</span>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80" alt="Avatar">
+                <div class="movie-info">
+                    <h3>Avatar</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 7.8</span>
+                        <span class="genre">Sci-Fi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80" alt="The Hangover">
+                <div class="movie-info">
+                    <h3>The Hangover</h3>
+                    <div class="movie-meta">
+                        <span class="rating">⭐ 7.7</span>
+                        <span class="genre">Comedy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MyFlix</h3>
+                <p>Your ultimate movie streaming destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tv-shows.html">TV Shows</a></li>
+                    <li><a href="my-list.html">My List</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyFlix. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

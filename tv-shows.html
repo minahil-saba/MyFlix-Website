@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - MyFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">MyFlix</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html" class="active">TV Shows</a></li>
+                <li><a href="my-list.html">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="page-header">
+            <h1>TV Shows</h1>
+            <div class="filter-bar">
+                <select class="filter-select">
+                    <option value="all">All Genres</option>
+                    <option value="drama">Drama</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="documentary">Documentary</option>
+                </select>
+                <select class="filter-select">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="shows-grid">
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=800&q=80" alt="Breaking Bad">
+                <div class="show-info">
+                    <h3>Breaking Bad</h3>
+                    <div class="show-meta">
+                        <span class="rating">⭐ 9.5</span>
+                        <span class="genre">Drama</span>
+                    </div>
+                    <div class="seasons">5 Seasons</div>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1578022761797-b8636ac1773c?auto=format&fit=crop&w=800&q=80" alt="The Crown">
+                <div class="show-info">
+                    <h3>The Crown</h3>
+                    <div class="show-meta">
+                        <span class="rating">⭐ 8.7</span>
+                        <span class="genre">Drama</span>
+                    </div>
+                    <div class="seasons">4 Seasons</div>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1579547944212-c4f4961a8dd8?auto=format&fit=crop&w=800&q=80" alt="Stranger Things">
+                <div class="show-info">
+                    <h3>Stranger Things</h3>
+                    <div class="show-meta">
+                        <span class="rating">⭐ 8.8</span>
+                        <span class="genre">Sci-Fi</span>
+                    </div>
+                    <div class="seasons">4 Seasons</div>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?auto=format&fit=crop&w=800&q=80" alt="Friends">
+                <div class="show-info">
+                    <h3>Friends</h3>
+                    <div class="show-meta">
+                        <span class="rating">⭐ 8.9</span>
+                        <span class="genre">Comedy</span>
+                    </div>
+                    <div class="seasons">10 Seasons</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MyFlix</h3>
+                <p>Your ultimate movie streaming destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tv-shows.html">TV Shows</a></li>
+                    <li><a href="my-list.html">My List</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyFlix. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
